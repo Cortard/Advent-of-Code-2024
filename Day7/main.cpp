@@ -91,3 +91,6 @@ int main() {
 
     return 0;
 }
+
+//optimisation: we can make 'a tree' of all the possible patterns and then check if the value is in the tree
+//the tree start with the 3 first results of the 3 operations between the 2 first values
